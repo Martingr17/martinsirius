@@ -1,0 +1,12 @@
+width = float(input())
+height = float(input())
+rashod = float(input())
+size = int(input())
+procent = int(input())
+square = width * height
+count = (square / rashod) + (square / rashod/100*procent)
+dont = int((count / size) + 1)
+print(round(square, 2))
+print(round(count, 2))
+print(dont)
+print(round((dont * size) - count, 2))

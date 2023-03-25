@@ -1,0 +1,5 @@
+number = int(input())
+first = str(number // 100)
+second = str((number // 10) % 10)
+third = str(number % 10)
+print(third + second + first)

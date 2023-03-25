@@ -1,0 +1,8 @@
+number1 = int(input())
+number2 = int(input())
+number3 = int(input())
+maximum = max(number1, number2, number3)
+minimum = min(number1, number2, number3)
+print(number1 + number2 + number3)
+print(maximum)
+print(minimum)
